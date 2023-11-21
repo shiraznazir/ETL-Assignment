@@ -1,0 +1,96 @@
+.heading {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heading2 {
+  color: var(--gray-41414120-l, #414141);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.heading3 {
+  color: var(--gray-88888850-l, #888);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text {
+  color: var(--gray-59595930-l, #595959);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.span-text {
+  color: var(--gray-8-a-8-a-8-a-50-l, #8a8a8a);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.borderColor {
+  border-color: #ff0000;
+}
+
+/* .css-19ihshh-MuiPaper-root {
+  width: 50vw;
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+} */
+
+/* .css-19ihshh-MuiPaper-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  z-index: 1200;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+} */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
